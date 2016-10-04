@@ -1,0 +1,33 @@
+{
+  "name": "ichadhr.github.io",
+  "version": "1.0.0",
+  "description": "Personal blog of ichadhr",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichadhr/ichadhr.github.io.git"
+  },
+  "keywords": [
+    "Naturally",
+    "and",
+    "artificially",
+    "flavoured."
+  ],
+  "author": "ichadhr",
+  "license": "SEE LICENSE IN https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "bugs": {
+    "url": "https://github.com/ichadhr/ichadhr.github.io/issues"
+  },
+  "homepage": "https://github.com/ichadhr/ichadhr.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.16.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
