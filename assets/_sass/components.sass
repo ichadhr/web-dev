@@ -86,7 +86,7 @@
         position: absolute
         top: $offset
       .name
-        font-size: $size-h1 !important // @extend priority BS
+        font-size: $size-title !important // @extend priority BS
       .developer
         font-size: $size-h3
 
@@ -172,19 +172,19 @@
       vertical-align: top
     &.is-design
       span
-        background: #914FA6
+        background: $is-design
     &.is-gaming
       span
-        background: #F2A129
+        background: $is-gaming
     &.is-life
       span
-        background: #337875
+        background: $is-life
     &.is-programming
       span
-        background: #D13026
+        background: $is-programming
     &.is-science
       span
-        background: #476CBB
+        background: $is-science
   &-title
     font-size: $size-h2
     line-height: 1.09
@@ -352,7 +352,6 @@
     text-align: right
   .title
     font-size: $size-h1
-    font-weight: 300
   .introduction
     font-size: $size-h3
     margin: 5px 0 60px

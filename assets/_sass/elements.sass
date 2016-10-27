@@ -80,7 +80,7 @@
     &:last-child
       margin-bottom: 0
     &.note
-      background: hsl(217, 86%, 96%)
+      background: $ghostwhite
       color: $text
       font-size: $size-default
       padding: 20px
@@ -155,7 +155,7 @@
   .highlight
     code,
     pre
-      background: #f6f6f6
+      background: $white
   +on($desktop)
     font-size: $size-content-desktop
     table
@@ -241,11 +241,9 @@ a.cover
   h1
     color: $title
     font-size: $size-h1
-    font-weight: 300
   h2
     color: $subtitle
     font-size: $size-h2
-    font-weight: 300
   +on($desktop)
     h1
       font-size: $size-h1-desktop
