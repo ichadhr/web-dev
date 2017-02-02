@@ -273,6 +273,11 @@ a.cover
       color: $github
       &:hover
         color: white
+    &.lastfm
+      +pop($lastfm)
+      color: $lastfm
+      &:hover
+        color: white
 
 .icons
   li
@@ -408,7 +413,7 @@ a.cover
     text-align: center
     vertical-align: top
     &:hover
-      background: $white
+      background: $hover
       // border-color: $black
       color: $link
     &.active
@@ -438,7 +443,7 @@ a.cover
   margin-top: $offset
   padding: 20px
   span
-    font-style: oblique
+    // font-style: oblique
   .fa
     color: $twitter
     font-size: 28px
